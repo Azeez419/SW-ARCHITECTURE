@@ -13,6 +13,9 @@ package uk.ac.roehampton.client;
  * directly on third-party services.
  */
 public class MarketDataClient {
+    public String fetchPrice(String ticker) {
+        return "Price for " + ticker + " is 123.45";
+    }
 
 }
 
